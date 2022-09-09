@@ -1,0 +1,22 @@
+This simple GUI enables the user to quickly plot STXM images (in .xim format - as recorded at SoftiMAX) and obtain the XMCD image (typically between circular positive and negative polarizations).<br>
+<br>
+<strong>Steps:</strong>
+
+<ul>
+<li>Load the C+ (circular positive) image by clicking the "Browse C+" button - only '.xim' files - and plot it by clicking the "Plot C+" button.</li>
+<li>Repeat the same steps for the C- case.</li>
+<li>You may also change the color map by selecting another from the drop-down box.</li>
+<li>Click "Plot XMCD" to view the XMCD image. OBS: in this case, the two images are 'aligned' automatically by using Python's 'phase_cross_correlation' method.</li>
+<li>You may also manually shift the C- image (with respect to C+) by using the "Up", "Down", "Left" and "Right" buttons at the bottom. </li>
+<li>The "Shift" field allows the user to input a specific 'shift' value. Otherwise, the default 0.5 will be used.</li>
+<li>The XMCD plots may be reset at any time by clicking the "Reset" button.</li>
+</ul><br>
+
+<strong>OBS:</strong> please note that errors (and other information) will be shown in the bottom-left corner of the GUI window.<br>
+<br>
+The toolbar below each image allows the user to customize the plot and save the images in various formats. <br><br>
+
+<img src="logo.png" id="logo" alt="MAX IV logo" style="width: 40%">
+
+
+
