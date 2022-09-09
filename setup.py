@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="softi-xmcd-view",
-    version=1.1,
-    packages=find_packages(include=['xmcd_gui_logic_2', 'xmcd_gui', 'resourc']),
+    version=1.3,
+    packages=find_packages(include=['xmcd_gui_logic_2', 'xmcd_gui', 'resourc', 'command_line', 'main_1']),
     scripts=['command_line'],
     install_requires = [
         'PyQt5',
